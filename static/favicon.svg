@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="260px" height="260px" viewBox="0 0 260 260" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Favicon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Favicon" fill="#8371C1" fill-rule="nonzero">
+            <g id="cloud" transform="translate(0.000000, 39.000000)">
+                <path d="M218.393906,79.04 C220.075781,74.683375 221,69.94975 221,65 C221,43.4610312 203.538969,26 182,26 C173.985094,26 166.536094,28.4188125 160.340375,32.5645938 C149.110813,13.10075 128.08575,0 104,0 C68.1013125,0 39,29.1013125 39,65 C39,66.10825 39.0284375,67.2095937 39.082875,68.3040313 C16.3194688,76.3120313 0,97.9984688 0,123.5 C0,155.808656 26.1913438,182 58.5,182 L208,182 C236.718625,182 260,158.718625 260,130 C260,104.840938 242.131906,83.8556875 218.393906,79.04 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
