@@ -1,11 +1,12 @@
 <template>
 	<div class="author h-card">
+		<a class="u-url" rel="me" href="https://davelovemartin.dev/">
+			<g-image alt="Author image" class="author__image u-logo" src="~/assets/images/author.jpg" width="180" height="180" blur="5" />
 
-		<g-image alt="Author image" class="author__image u-logo" src="~/assets/images/author.jpg" width="180" height="180" blur="5" />
-
-		<h1 v-if="showTitle" class="author__site-title p-nickname">
-			{{ $static.metadata.siteName }}
-		</h1>
+			<h1 v-if="showTitle" class="author__site-title p-nickname">
+				{{ $static.metadata.siteName }}
+			</h1>
+		</a>
 
 		<p class="author__intro p-role">
 			Design Technologist and Indie Hacker.
@@ -14,7 +15,6 @@
 		<p class="author__intro p-note">
 			I create prototypes and accessible design systems for some of the World's leading brands.
 		</p>
-
 		<p class="author__links">
 			<a href="//twitter.com/davelovemartin">Follow me on Twitter</a>
 			<a href="//github.com/davelovemartin/davelovemartin	">GitHub</a>
@@ -65,5 +65,8 @@ export default {
 			margin: 0 .5em;
 		}
 	}
+}
+.u-url {
+	text-decoration: none;
 }
 </style>
