@@ -43,8 +43,12 @@ export default {
     Author,
     PostCard
   },
-  metaInfo: {
-    title: 'home page'
+  metaInfo() {
+    return {
+      ...this.$sd({
+        ogtype: 'website' //article or website. Default is article
+      })
+    }
   }
 }
 </script>

@@ -42,13 +42,10 @@ export default {
   },
   metaInfo () {
     return {
-      title: this.$page.post.title,
-      meta: [
-        {
-          name: 'description',
-          content: this.$page.post.description
-        }
-      ]
+      ...this.$sd({
+        title: this.$page.post.title,
+        description: this.$page.post.description
+      })
     }
   }
 }

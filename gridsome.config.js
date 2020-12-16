@@ -4,9 +4,15 @@
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+const siteName = 'davelovemartin'
+const baseUrl = 'https://davelovemartin.dev'
+const titleDelimiter = '|'
+const siteDescription = 'Design Technologist, UX and Serverless Engineer and Indie Hacker.'
+
+
 module.exports = {
-  siteName: 'davelovemartin',
-  siteDescription: 'Design Technologist, UX and Serverless Engineer and Indie Hacker.',
+  siteName: siteName,
+  siteDescription: siteDescription,
 
   templates: {
     Post: '/:title',
@@ -27,6 +33,20 @@ module.exports = {
             create: true
           }
         }
+      }
+    },
+    {
+      use: 'gridsome-plugin-structured-data',
+      options: {
+        siteName: siteName,
+        shortDiscription: siteDescription,
+        baseUrl: baseUrl,
+        delimiter: titleDelimiter,
+        description: siteDescription,
+        published: '2020-12-01T00:00:00+09:00', //Published date/time of your site in ISO8601 format
+        imagePath: './src/assets/images/author.jpg', //Default ogp image.
+        twcard: 'summary_large_image', //option, one of summary, summary_large_image, app, or player.
+        twcreator: '@davelovemartin' //option, @name for the content creator.
       }
     }
   ],
