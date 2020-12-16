@@ -1,17 +1,17 @@
 <template>
-	<div class="author">
+	<div class="author h-card">
 
-		<g-image alt="Author image" class="author__image" src="~/assets/images/author.jpg" width="180" height="180" blur="5" />
+		<g-image alt="Author image" class="author__image u-logo" src="~/assets/images/author.jpg" width="180" height="180" blur="5" />
 
-		<h1 v-if="showTitle" class="author__site-title">
+		<h1 v-if="showTitle" class="author__site-title p-nickname">
 			{{ $static.metadata.siteName }}
 		</h1>
 
-		<p class="author__intro">
+		<p class="author__intro p-role">
 			Design Technologist and Indie Hacker.
 		</p>
 
-		<p class="author__intro">
+		<p class="author__intro p-note">
 			I create prototypes and accessible design systems for some of the World's leading brands.
 		</p>
 
