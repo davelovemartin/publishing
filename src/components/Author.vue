@@ -16,8 +16,8 @@
 			I create prototypes and accessible design systems for some of the World's leading brands.
 		</p>
 		<p class="author__links">
-			<a href="//twitter.com/davelovemartin">Follow me on Twitter</a>
-			<a href="//github.com/davelovemartin/davelovemartin	">GitHub</a>
+			<a rel="me" href="//twitter.com/davelovemartin">Follow me on Twitter</a>
+			<a rel="me" href="//github.com/davelovemartin/davelovemartin	">GitHub</a>
 		</p>
 
 	</div>

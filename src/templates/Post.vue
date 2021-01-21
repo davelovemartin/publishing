@@ -1,31 +1,33 @@
 <template>
   <Layout>
-    <div class="post-title">
-      <h1 class="post-title__text">
-        {{ $page.post.title }}
-      </h1>
+    <article class="h-entry">
+      <div class="post-title">
+        <h1 class="p-name post-title__text">
+          {{ $page.post.title }}
+        </h1>
 
-      <PostMeta :post="$page.post" />
+        <PostMeta :post="$page.post" />
 
-    </div>
-
-    <div class="post content-box">
-      <div class="post__header">
-        <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
       </div>
 
-      <div class="post__content" v-html="$page.post.content" />
+      <div class="post content-box">
+        <div class="post__header">
+          <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
+        </div>
 
-      <div class="post__footer">
-        <PostTags :post="$page.post" />
+        <div class="post__content e-content" v-html="$page.post.content" />
+
+        <div class="post__footer">
+          <PostTags :post="$page.post" />
+        </div>
       </div>
-    </div>
 
-    <div class="post-comments">
-      <!-- Add comment widgets here -->
-    </div>
+      <div class="post-comments">
+        <!-- Add comment widgets here -->
+      </div>
 
-    <Author class="post-author" />
+      <Author class="post-author p-author" />
+    </article>
   </Layout>
 </template>
 

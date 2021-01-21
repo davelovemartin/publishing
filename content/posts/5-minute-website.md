@@ -1,5 +1,5 @@
 ---
-title: How (and why) I built and published my new website in 5 minutes
+title: How I built and published my new website in 5 minutes
 date: 2020-12-01
 published: true
 tags: ['Rapid prototyping']

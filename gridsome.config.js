@@ -48,7 +48,25 @@ module.exports = {
         twcard: 'summary_large_image', //option, one of summary, summary_large_image, app, or player.
         twcreator: '@davelovemartin' //option, @name for the content creator.
       }
-    }
+    },
+    // {
+    //   use: '@gridsome/plugin-sitemap',
+    //   options: {
+    //     // exclude: ['/exclude-me'],
+    //     // config: {
+    //     //   '/articles/*': {
+    //     //     changefreq: 'weekly',
+    //     //     priority: 0.5,
+    //     //     lastmod: '2020-02-19',
+    //     //   },
+    //     //   '/about': {
+    //     //     changefreq: 'monthly',
+    //     //     priority: 0.7,
+    //     //     lastmod: '2020-05-12',
+    //     //   }
+    //     // }
+    //   }
+    // }
   ],
 
   transformers: {
