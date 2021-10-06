@@ -9,11 +9,11 @@
 		</a>
 
 		<p class="author__intro p-role">
-			Creative Technologist | Experience Design Engineer
+			Creative Technologist
 		</p>
 
 		<p class="author__intro p-note">
-			I create prototypes and accessible design systems for some of the World's leading brands.
+			– a hybrid of UX Designer and Engineer. Building to learn as part of a user-centred design process.
 		</p>
 		<p class="author__links">
 			<a rel="me" href="//twitter.com/davelovemartin">Follow me on Twitter</a>
