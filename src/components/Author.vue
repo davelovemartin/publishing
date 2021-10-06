@@ -9,7 +9,7 @@
 		</a>
 
 		<p class="author__intro p-role">
-			Design Technologist and Indie Hacker.
+			Creative Technologist | Experience Design Engineer
 		</p>
 
 		<p class="author__intro p-note">

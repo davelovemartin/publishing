@@ -1,5 +1,5 @@
 ---
-title: A Guide to the Good Life
+title: A guide to the good life
 date: 2020-12-31
 published: true
 tags: ['Thoughts']

@@ -1,5 +1,5 @@
 ---
-title: optimising findability
+title: Optimising findability
 date: 2021-01-21
 published: true
 tags: ['Search']
