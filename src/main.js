@@ -9,7 +9,7 @@ export default function (Vue, { router, head, isClient }) {
    // Add a meta tag
    head.meta.push({
     name: 'keywords',
-    content: 'HTML,CSS,JavaScript,Agile,Startups,Innovation,Indie Hacker,Design Technolgist'
+    content: 'HTML,CSS,JavaScript,Agile,Startups,Innovation,Creative Technologist,Design Technologist'
   })
 
   // Set default layout as a global component
