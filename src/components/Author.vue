@@ -13,7 +13,7 @@
 		</p>
 
 		<p class="author__intro p-note">
-			– a hybrid of UX Designer and Engineer. Building to learn as part of a user-centred design process.
+			– Building to learn 💻  Iterating to innovate 🚀
 		</p>
 		<p class="author__links">
 			<a rel="me" href="//twitter.com/davelovemartin">Follow me on Twitter</a>
